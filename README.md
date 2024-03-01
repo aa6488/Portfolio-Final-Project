@@ -76,42 +76,49 @@
 #### 상세 기능 설명은 각 페이지별 링크 연결해두었습니다.
 ####  [1. 프로젝트 생성 & 사용자 초대 & (월간,일간)일정등록 및 초대알림(알림부분 마지막설명)]
 
-<img width="100px;" src=""> 
+<img width="100px;" src="https://github.com/aa6488/Portfolio-Final-Project/blob/master/gif/%EC%83%9D%EC%84%B1%EC%B4%88%EB%8C%80%EC%9D%BC%EC%A0%95%EB%93%B1%EB%A1%9D2.gif"> 
 
 <hr>
 
 <br>
 
 #### [2. 프로젝트 기능분담 ]
-<img width="100px;" src=""> 
+<img width="100px;" src="https://github.com/aa6488/Portfolio-Final-Project/blob/master/gif/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B8%B0%EB%8A%A5%EB%B6%84%EB%8B%B4.gif"> 
 
 <hr>
 
 <br>
 
 #### [3. 프로젝트 팀공지게시판, 그림판 API]
-<img width="100px;" src=""> 
+<img width="100px;" src="https://github.com/aa6488/Portfolio-Final-Project/blob/master/gif/%EA%B3%B5%EC%A7%80%EA%B7%B8%EB%A6%BC%ED%8C%90.gif"> 
 
 <hr>
 
 <br>
 
 #### [4. 프로젝트 수정, 인터셉터처리, 글자 수 제한]
-<img width="100px;" src=""> 
+<img width="100px;" src="https://github.com/aa6488/Portfolio-Final-Project/blob/master/gif/%EC%88%98%EC%A0%95%EC%9D%B8%ED%84%B0%EC%85%89%ED%84%B0%EC%B2%98%EB%A6%AC.gif"> 
 
 <hr>
 
 <br>
 
 #### [5. 프로젝트 진행,완료,초대,초대참가 알림]
-<img width="100px;" src=""> 
+<img width="100px;" src="https://github.com/aa6488/Portfolio-Final-Project/blob/master/gif/%EC%A7%84%ED%96%89%EC%99%84%EB%A3%8C%EC%B4%88%EB%8C%80%EC%B4%88%EB%8C%80%EC%B0%B8%EA%B0%80.gif"> 
 
 <hr>
 
 <br>
 
 #### [6. 프로젝트 신청,신청참가 알림]
-<img width="100px;" src=""> 
+<img width="100px;" src="https://github.com/aa6488/Portfolio-Final-Project/blob/master/gif/%EC%8B%A0%EC%B2%AD%EC%8B%A0%EC%B2%AD%EC%B0%B8%EA%B0%80.gif"> 
+
+<hr>
+
+<br>
+
+#### [7. 채팅웹 ]
+<img width="100px;" src="https://github.com/aa6488/Portfolio-Final-Project/blob/master/gif/%EC%B1%84%ED%8C%85.gif"> 
 
 <hr>
 
