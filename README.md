@@ -46,37 +46,84 @@
   <br>
 </p>
 
-## 유스케이스
-<p align="center">
-  <br>
-  <img src="./images/유스케이스1.jpg">
-  <br>
-</p>
-<p align="center">
-  <br>
-  <img src="./images/유스케이스2.jpg">
-  <br>
-</p>
-<p align="center">
-  <br>
-  <img src="./images/유스케이스3.jpg">
-  <br>
-</p>
-<p align="center">
-  <br>
-  <img src="./images/유스케이스4.jpg">
-  <br>
-</p>
-<p align="center">
-  <br>
-  <img src="./images/유스케이스5.jpg">
-  <br>
-</p>
-
 <br>
 
+## 내 기능 구현 주요 이미지 
 
-## 내 기능 구현
+### 1. 프로젝트 생성, 수정
+<br>
+<img width="800px;" src="https://github.com/aa6488/Portfolio-Final-Project/assets/150643187/2ce340a0-504a-4c47-9463-ae002cdb4b31">
+<br>
+
+**1.** 원하는 프로젝트를 생성할수 있고, 생성시 DB에 반영되며 왼쪽 프로젝트 목록에 추가되게 되고, 기본이미지는 모자쓴 캐릭터 입니다. (이미지 추가가 가능합니다)<br><br>
+**2.** 프로젝트를 수정하게되면 DB에 반영되고 이미지 또한 수정이 가능합니다. (기존 이미지있을시 DB에서 삭제, 서버에 저장된 이미지 삭제 -> 새로운 이미지 추가)<br><br>
+ 
+
+<hr>
+
+### 2. 프로젝트 개별 기능 완성도 퍼센트 
+<br>
+<img width="800px;" src="https://github.com/aa6488/Portfolio-Final-Project/assets/150643187/5eed6804-bce5-426b-a441-0050a99a31df"> 
+<br>
+
+**1.** **프로젝트 별로 맡은 기능을 추가**할수 있고 **완성도 퍼센트를 그래프로** 나타나게 만들었습니다<br><br>
+**2.** 완성도 퍼센트를 수정할수 있고 삭제 또한 가능하게 됩니다. (해당 기능들은 Oracle DB 에 저장됩니다.)<br><br>
+**3.** DB에 저장된 퍼센트는 해당 프로젝트 메인페이지 에서 front영역, back영역, (front+back : 전체영역) 으로 달성도를 평균치로 나타내게 만들었습니다. 
+
+<hr>
+
+
+
+### 3. 프로젝트 ToDo List 작성
+<img width="800px;" src="https://github.com/aa6488/Portfolio-Final-Project/assets/150643187/24d6b85e-108e-4dcf-9356-f7b42f217ffc"> 
+<br>
+
+**1.** **캘린더 TO DO List** 를 **월단위, 일단위 계획**을 세울수 있게 만들어놓았습니다.<br><br>
+**2.** **DB에 저장된 월, 일단위 일정은 메인페이지에서 한번에 볼수있게** 만들어 놓았습니다.<br><br>
+
+<hr>
+
+### 4. 팀 공지 게시판, 그림판 작성
+
+<img width="800px;" src="https://github.com/aa6488/Portfolio-Final-Project/assets/150643187/19d0d168-3512-4abb-9427-c8631e74d915"> 
+<br>
+
+**1.** 팀단위 공지를 게시할수있는 게시판을 만들어놓았고, 기본적인 CRUD 만 가능합니다.
+**2.** 홈페이지에 자체 그림판을 구현해 개인 pc에 저장할수있게 만들어놓았습니다.
+
+### 5. 유효성 검사
+
+<img width="800px;" src="https://github.com/aa6488/Portfolio-Final-Project/assets/150643187/dd1a15a7-6c0c-4406-90c0-206e82bd7b46"> 
+<br>
+
+**1.** 상위 1,2,3,4 구현기능에 대해 입력값 null 체크와 DB테이블 크기에 맞는지에 대한 유효성 검사를 추가했습니다.
+
+<hr>
+
+### 6. AOP 설정 
+
+<img width="800px;" src="https://github.com/aa6488/Portfolio-Final-Project/assets/150643187/abac5c27-0716-4803-bebe-7777b840b590">
+<br>
+
+**1.** 협업페이지 접근시 로그인된 유저인지 판단하기위해 인터셉터 설정을 했습니다. 
+**2.** 프로젝트의 각 기능에 접근하기위해 프로젝트 생성, 참여 여부를 확인하기위해 인터셉터 설정을 했습니다. 
+**3.** 리소스 낭비를 방지하기위해 해당되는 페이지, 기능 Controller 에 접근하기전에 인터셉터 처리를 preHandle 메서드에 구현했습니다. 
+
+
+<hr>
+
+### 7. 프로젝트 별 구분방법
+
+<img width="800px;" src="https://github.com/aa6488/Portfolio-Final-Project/assets/150643187/108d223f-7de4-418a-be61-ab5a48812633">
+<br>
+
+**1.** 프로젝트별로 기능을 구분하기위해 Session 을 사용했습니다. 프로젝트 목록을 선택시 DB에 저장되어있는 프로젝트 PK 값으로 Session 을 생성하게됩니다.
+**2.** 이후 프로젝트 관련 기능들은 생성된 Session 을 바탕으로 DB에 저장되고 꺼내오게 됩니다.
+
+<hr>
+
+
+## 내 기능 구현 영상
 #### 상세 기능 설명은 각 페이지별 링크 연결해두었습니다.
 ####  [1. 프로젝트 생성 & 사용자 초대 & (월간,일간)일정등록 및 초대알림(알림부분 마지막설명)](https://github.com/aa6488/Portfolio-Final-Project/wiki/%F0%9F%93%83-%EA%B8%B0%EB%8A%A5-%EC%83%81%EC%84%B8%EC%84%A4%EB%AA%85#1-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
 
@@ -143,3 +190,31 @@
 </p>
 
 <br>
+
+## 프로젝트 유스케이스
+<p align="center">
+  <br>
+  <img src="./images/유스케이스1.jpg">
+  <br>
+</p>
+<p align="center">
+  <br>
+  <img src="./images/유스케이스2.jpg">
+  <br>
+</p>
+<p align="center">
+  <br>
+  <img src="./images/유스케이스3.jpg">
+  <br>
+</p>
+<p align="center">
+  <br>
+  <img src="./images/유스케이스4.jpg">
+  <br>
+</p>
+<p align="center">
+  <br>
+  <img src="./images/유스케이스5.jpg">
+  <br>
+</p>
+
